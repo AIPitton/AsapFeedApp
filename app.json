@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "ASAP FEED APP",
+    "slug": "ASAPFEEDAPP",
+    "sdkVersion": "40.0.0",
+    "version": "1.0.3",
+    "description": "This App is used to view ASAP feed and post ideas on how to prevent the plastic pollution of the planet.",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.ASAP.FeedApp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
